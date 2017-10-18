@@ -26,7 +26,8 @@
                 android:layout_height="match_parent"
                 android:background="?attr/selectableItemBackgroundBorderless"
                 android:paddingLeft="15dp"
-                android:paddingRight="15dp">
+                android:paddingRight="15dp"
+                android:visibility="gone">
 
                 <ImageView
                     android:id="@+id/iv_title_menu"
@@ -80,13 +81,29 @@
 
     <include layout="@layout/content_main" />
 
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        android:visibility="gone"
-        app:srcCompat="@android:drawable/ic_dialog_email" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            android:descendantFocusability="blocksDescendants" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:visibility="gone"
+            app:srcCompat="@android:drawable/ic_dialog_email" />
+
+    </FrameLayout>
+
+
+
 
 </android.support.design.widget.CoordinatorLayout>
