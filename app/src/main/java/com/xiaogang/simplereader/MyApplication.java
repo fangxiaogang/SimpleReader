@@ -3,7 +3,7 @@ package com.xiaogang.simplereader;
 import android.app.Application;
 
 /**
- * Created by Administrator on 2017/10/16 0016.
+ * Created by xiaogang on 2017/10/16 0016.
  */
 
 public class MyApplication extends Application {

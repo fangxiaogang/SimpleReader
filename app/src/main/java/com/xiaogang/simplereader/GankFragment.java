@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 /**
- * Created by Administrator on 2017/10/18 0018.
+ * Created by xiaogang on 2017/10/18 0018.
  */
 
 public class GankFragment extends BaseFragment {

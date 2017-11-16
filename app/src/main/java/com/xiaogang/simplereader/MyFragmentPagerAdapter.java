@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 import java.util.List;
 
 /**
- * Created by Administrator on 2017/10/18 0018.
+ * Created by xiaogang on 2017/10/18 0018.
  */
 
 public class MyFragmentPagerAdapter extends FragmentPagerAdapter {
