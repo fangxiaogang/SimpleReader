@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SimpleReader.iml" filepath="$PROJECT_DIR$/SimpleReader.iml" />
+      <module fileurl="file://C:\Users\xiaogang\Documents\GitHub\SimpleReader\SimpleReader.iml" filepath="C:\Users\xiaogang\Documents\GitHub\SimpleReader\SimpleReader.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\xiaogang\Documents\GitHub\SimpleReader\app\app.iml" filepath="C:\Users\xiaogang\Documents\GitHub\SimpleReader\app\app.iml" />
     </modules>
   </component>
 </project>
